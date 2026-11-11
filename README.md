@@ -1,4 +1,4 @@
-# honen-com
+# Honen
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,134 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-honen-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://honen.com/
+Honen provides a teaching and learning infrastructure that connects knowledge authoring, delivery, and measurement. It turns source material into learning content, offers AI‑generated courses, supports integration with existing LMSs via LTI, SCORM, or cmi5, and tracks learner progress with detailed reporting. The platform is free to start and aims at individuals, educators, teams, schools, and organizations seeking scalable education solutions.
+
+**Areas:** Course Authoring · Workforce Training
+
+## Honen on APIs.io
+
+Everything profiled for Honen is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/honen-com/](https://apis.io/providers/honen-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (15)
+
+- [Honen Connector API](https://apis.io/apis/honen-com/honen-connector-api/) — Workspace Connector HTTP API providing POST /api/v1/{domain}/{action} endpoints.
+- [Honen Agents API](https://apis.io/apis/honen-com/honen-com-agents-api/) — The agents API from Honen — 6 operation(s) for agents.
+- [Honen Analytics API](https://apis.io/apis/honen-com/honen-com-analytics-api/) — The analytics API from Honen — 6 operation(s) for analytics.
+- [Honen Assignments API](https://apis.io/apis/honen-com/honen-com-assignments-api/) — The assignments API from Honen — 5 operation(s) for assignments.
+- [Honen Course Editor API](https://apis.io/apis/honen-com/honen-com-course-editor-api/) — The course-editor API from Honen — 1 operation(s) for course-editor.
+- [Honen Courses API](https://apis.io/apis/honen-com/honen-com-courses-api/) — The courses API from Honen — 7 operation(s) for courses.
+- [Honen Explore API](https://apis.io/apis/honen-com/honen-com-explore-api/) — The explore API from Honen — 13 operation(s) for explore.
+- [Honen Groups API](https://apis.io/apis/honen-com/honen-com-groups-api/) — The groups API from Honen — 8 operation(s) for groups.
+- [Honen Invites API](https://apis.io/apis/honen-com/honen-com-invites-api/) — The invites API from Honen — 4 operation(s) for invites.
+- [Honen Kb API](https://apis.io/apis/honen-com/honen-com-kb-api/) — The kb API from Honen — 35 operation(s) for kb.
+- [Honen Learning API](https://apis.io/apis/honen-com/honen-com-learning-api/) — The learning API from Honen — 19 operation(s) for learning.
+- [Honen Members API](https://apis.io/apis/honen-com/honen-com-members-api/) — The members API from Honen — 4 operation(s) for members.
+- [Honen Performance API](https://apis.io/apis/honen-com/honen-com-performance-api/) — The performance API from Honen — 4 operation(s) for performance.
+- [Honen Workspace API](https://apis.io/apis/honen-com/honen-com-workspace-api/) — The workspace API from Honen — 2 operation(s) for workspace.
+- [Honen Workspace Assistant API](https://apis.io/apis/honen-com/honen-com-workspace-assistant-api/) — The workspace-assistant API from Honen — 1 operation(s) for workspace-assistant.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Honen Agentic Access](https://apis.io/agentic-access/honen-com/honen-com-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Honen Com Context](https://apis.io/jsonld/honen-com/honen-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Honen API Rules](https://apis.io/rules/honen-com/honen-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Honen Authentication](https://apis.io/security/honen-com/honen-com-authentication/)
+- [Honen Domain Security](https://apis.io/security/honen-com/honen-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Honen Plans Pricing](https://apis.io/plans/honen-com/honen-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://honen.com/)
+- [Documentation](https://honen.com/docs)
+- [Getting started](https://honen.com/mcp)
+- [API reference](https://honen.com/changelog)
+- [Pricing](https://honen.com/pricing)
+- [Sign up](https://honen.com/signup?redirect=%2Fdashboard)
+- [Support](https://honen.com/support)
+- [Blog](https://honen.com/blog)
+- [Terms of service](https://honen.com/terms)
+- [Privacy policy](https://honen.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 56.9** — strong · rubric 0.27.0 · scored 2026-11-11
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.9 |
+| Contract quality | 50.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 63.7 |
+
+**Agent readiness 70.3** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/honen-com/](https://apis.io/providers/honen-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Honen: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/honen-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
